@@ -7,7 +7,7 @@
     <test name="Story one" preserve-order="true">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.pov.automation.tests.CheckAppHealth"/>
+            <class name="com.pov.automation.tests.UserRegistration"/>
         </classes>
     </test>
 </suite>

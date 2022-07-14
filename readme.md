@@ -24,8 +24,10 @@ Each page of the website has a separate class with it's locators + custom method
 Essentials:
 DriverFactory where driver is defined.
 Testng file - Base tests file where driver star and teardown have been defined.
-
 TestUtilitie - Added extent reports library for reports that are generated as an HTML file.
+
+Screenshots - Added in the best BaseMethods class and can be used at any test step. Screenshot is generated in the 
+test-output screenshot file. 
 
 Tests:
 Classes with tests with each test being in a seperate class. 
