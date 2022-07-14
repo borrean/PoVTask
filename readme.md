@@ -35,6 +35,8 @@ and can be deleted.
 
 Tests:
 Classes with tests with each test being in a separate class. 
+I did not add "Edit campaign" test because "Edit" button cannot be properly defined as locator as specific campaign 
+cannot be selected unless some tricky xpath locator is used. The page needs a better DOM design for this scenario.
 
 TestNG file has to be used to run tests. 
 
