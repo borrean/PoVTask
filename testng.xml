@@ -7,7 +7,7 @@
     <test name="Story one" preserve-order="true">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.pov.automation.tests.CreateNewCampaign"/>
+            <class name="com.pov.automation.tests.CheckAppHealth"/>
 <!--            <class name="com.Mop.Automation.tests.UserLogin"/>-->
 <!--            <class name="com.Mop.Automation.tests.UserChangeInformation"/>-->
 <!--            <class name="com.Mop.Automation.tests.UserChangePassword"/>-->
