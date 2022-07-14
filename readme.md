@@ -1,8 +1,11 @@
 # PoV
 
-This is a test automation project done in Java, Selenium and TestNG is used as a framework.
+This is a test automation project done in Java, Selenium and TestNG is used as a framework and Mave as a building tool.
+(list of libraries used is in the Maven pom.xml file)
 
-Project StructureDSL - domain specific language file with interfaces, methods and pages
+Project Structure
+
+DSL - domain specific language file with interfaces, methods and pages
 
 Interfaces:
 I have implemented custom functions used in tests:
@@ -22,12 +25,17 @@ Essentials:
 DriverFactory where driver is defined.
 Testng file - Base tests file where driver star and teardown have been defined.
 
-TestUtilitie - Added extent reports library for reports that are generated as an HTML file
+TestUtilitie - Added extent reports library for reports that are generated as an HTML file.
 
 Tests:
 Classes with tests with each test being in a seperate class. 
 
 TestNG file has to be used to run tests. 
+
+Steps to run a test:
+1) Update the testng file with class path of the desired test.
+2) Run the test via testng file.
+3) HTML report of test run is generated in test-output file. 
 
 
 
