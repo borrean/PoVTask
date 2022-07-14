@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Growth Automated Tests" preserve-order="true" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="com.pov.automation.essentials.testUtilities.TestListener"></listener>
+    </listeners>
 
     <test name="Story one" preserve-order="true">
         <parameter name="browser" value="chrome"/>

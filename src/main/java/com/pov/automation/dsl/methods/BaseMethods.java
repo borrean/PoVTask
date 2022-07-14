@@ -139,13 +139,11 @@ public class BaseMethods extends BaseTest implements Element, Button, Field, Web
 
     @Override
     public void sendKeys(CharSequence... keysToSend) {
-
+        
     }
 
     @Override
-    public void clear() {
-
-    }
+    public void clear() {}
 
     @Override
     public String getTagName() {
