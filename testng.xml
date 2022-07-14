@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Growth Automated Tests" preserve-order="true" parallel="tests" thread-count="3">
+
+    <test name="Story one" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.pov.automation.tests.CreateNewCampaign"/>
+<!--            <class name="com.Mop.Automation.tests.UserLogin"/>-->
+<!--            <class name="com.Mop.Automation.tests.UserChangeInformation"/>-->
+<!--            <class name="com.Mop.Automation.tests.UserChangePassword"/>-->
+        </classes>
+    </test>
+</suite>
+
+
