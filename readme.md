@@ -16,21 +16,25 @@ Read - validates if element exists + takes value from attribute
 Write - checks if element exists + sends a value in the field
 
 Methods:
-All of the methods above have been implemented in the BaseMethods file. 
+All the methods above have been implemented in the BaseMethods file. 
 
 Pages:
-Each page of the website has a separate class with it's locators + custom methods that are used in tests on those pages.
+Each page of the website has a separate class with its locators + custom methods that are used in tests on those pages.
 
 Essentials:
 DriverFactory where driver is defined.
 Testng file - Base tests file where driver star and teardown have been defined.
-TestUtilitie - Added extent reports library for reports that are generated as an HTML file.
+TestUtilities - Added extent reports library for reports that are generated as an HTML file.
 
 Screenshots - Added in the best BaseMethods class and can be used at any test step. Screenshot is generated in the 
 test-output screenshot file. 
 
+Clear data - this step has only been added in the UserRegistration test. This is because 1 internal test account can be
+used to run other tests that require logging in while the account created by UserRegistration test fulfil its purpose
+and can be deleted. 
+
 Tests:
-Classes with tests with each test being in a seperate class. 
+Classes with tests with each test being in a separate class. 
 
 TestNG file has to be used to run tests. 
 
