@@ -1,8 +1,8 @@
 # PoV
 
-Project Structure:
+This is a test automation project done in Java, Selenium and TestNG is used as a framework.
 
-DSL - domain specific language file with interfaces, methods and pages
+Project StructureDSL - domain specific language file with interfaces, methods and pages
 
 Interfaces:
 I have implemented custom functions used in tests:
@@ -21,6 +21,8 @@ Each page of the website has a separate class with it's locators + custom method
 Essentials:
 DriverFactory where driver is defined.
 Testng file - Base tests file where driver star and teardown have been defined.
+
+TestUtilitie - Added extent reports library for reports that are generated as an HTML file
 
 Tests:
 Classes with tests with each test being in a seperate class. 
