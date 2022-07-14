@@ -24,6 +24,9 @@ public class BaseMethods extends BaseTest implements Element, Button, Field, Web
     protected final WebDriver driver;
     protected final Logger log;
 
+    public WebDriver getDriver() {
+        return driver;
+    }
 
     public BaseMethods(WebDriver driver, Logger log) {
         this.driver = driver;

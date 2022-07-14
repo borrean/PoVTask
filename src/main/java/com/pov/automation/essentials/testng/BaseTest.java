@@ -17,6 +17,9 @@ public class BaseTest {
     protected WebDriver driver;
     protected Logger log;
 
+    public WebDriver getDriver() {
+        return driver;
+    }
     protected String testSuiteName;
     protected String testName;
     protected String testMethodName;
@@ -28,7 +31,6 @@ public class BaseTest {
         DriverFactory factory = new DriverFactory(browser, log);
         driver = factory.createDriver();
         driver.manage().window().maximize();
-
 
         this.testSuiteName = ctx.getSuite().getName();
         this.testName = testName;

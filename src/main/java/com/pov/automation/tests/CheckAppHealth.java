@@ -6,11 +6,15 @@ import com.pov.automation.dsl.pages.login.PoVLogin;
 import com.pov.automation.essentials.testng.BaseTest;
 import org.testng.annotations.Test;
 
+import java.lang.reflect.Method;
+
+import static com.pov.automation.essentials.testUtilities.ExtentReports.ExtentTestManager.startTest;
+
 public class CheckAppHealth extends BaseTest {
 
-    @Test
-    public void checkAppHealth(){
-
+    @Test(description = "Check health of the application by checking if elements are present.")
+    public void checkAppHealth(Method method){
+        startTest(method.getName(), "Check health of the application by checking if elements are present.");
         healthCheck checkHealth = new healthCheck(driver,log);
         checkHealth
                 .checkMainPageLoad()
