@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TaskTestSuite" verbose="1">
+
+    <test name="TaskTests" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.pov.automation.tests.UserRegistration"/>
+        </classes>
+    </test>
+</suite>
+
+
